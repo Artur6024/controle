@@ -71,7 +71,7 @@ self = <c16_03.test_16_03.Test1603sute testMethod=test_2>
         files = os.listdir('.')
         assert 'main.py' in files
 >       assert 'test_main.py' in files
-E       AssertionError: assert 'test_main.py' in ['.pytest_cache', 'rapport_16_03', 'main.py', 'test_16_03.py', '__init__.py', '__pycache__']
+E       AssertionError: assert 'test_main.py' in ['.pytest_cache', 'rapport_16_03', 'main.py', 'test_16_03.py', '__init__.py', '__pycache__', ...]
 
 test_16_03.py:10: AssertionError
 _____________________________ Test1603sute.test_5 ______________________________
